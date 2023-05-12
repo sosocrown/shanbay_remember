@@ -3,7 +3,7 @@ name: Send shanbay today new words to telegram
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "30 5 * * *"
     - cron: "0 2 * * *"
   push:
     branches:
